@@ -4,7 +4,7 @@
 
     <groupId>cc.catalysts</groupId>
     <artifactId>demo</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <modules>
         <module>pet-clinic-data</module>
         <module>pet-clinic-web</module>
@@ -44,7 +44,7 @@
     </build>
     <scm>
         <developerConnection>scm:git:git@github.com:BlajDavid/sfg-pet-clinic.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>demo-0.0.2</tag>
   </scm>
 
 </project>
