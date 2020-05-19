@@ -2,9 +2,11 @@ package cc.catalysts.demo.services.map;
 
 import cc.catalysts.demo.model.Vet;
 import cc.catalysts.demo.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService{
     @Override
     public Set<Vet> findAll() {
